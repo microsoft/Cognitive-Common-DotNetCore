@@ -1,7 +1,21 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp1.1</TargetFramework>
+    <PackageId>Microsoft.ProjectOxford.Common.DotNetCore</PackageId>
+    <Version>1.1.0</Version>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Copyright>Copyright (c) 2017</Copyright>
+    <Authors>Microsoft</Authors>
+    <PackageTags>Microsoft Project Oxford Common</PackageTags>
+    <PackageReleaseNotes>Initial release to support .NET Core 1.1</PackageReleaseNotes>
+    <Description>Microsoft Project Oxford Common Types Client Library for .NET Core</Description>
+    <RepositoryUrl>https://github.com/adgroc/Cognitive-Common-DotNetCore</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/adgroc/Cognitive-Common-DotNetCore</PackageProjectUrl>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="10.0.2" />
+  </ItemGroup>
 
 </Project>

@@ -1,6 +1,13 @@
 ![Common](Docs/Images/Common.png)
 
 # Microsoft Cognitive Services: .NET Core Common Code
+
+| Branch      | Build Status  |
+| ----------- | ------------- |
+| develop     | [![Build Status](https://travis-ci.org/Microsoft/Cognitive-Common-DotNetCore.svg?branch=develop)](https://travis-ci.org/Microsoft/Cognitive-Common-DotNetCore) |
+| master      | [![Build Status](https://travis-ci.org/Microsoft/Cognitive-Common-DotNetCore.svg?branch=master)](https://travis-ci.org/Microsoft/Cognitive-Common-DotNetCore) |
+
+# Overview
 This repository contains code shared between .NET Core client libraries and samples across different Microsoft Cognitive Services APIs, formerly known as Project Oxford.
  * [Learn about Microsoft Cognitive Services](https://www.microsoft.com/cognitive-services)
  * [Find more SDKs & Samples](https://www.microsoft.com/cognitive-services/en-us/SDK-Sample)
